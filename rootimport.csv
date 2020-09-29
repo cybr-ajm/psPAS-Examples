@@ -1,4 +1,4 @@
 Hostname,AccountName,CurrentPasswd,Platform,Safe,LogonAccount
-host1.cybr.com,root,Password1,UnixSSH,Linux Root,Operating System-UnixSSH-rhel7.cybr.com-logon
-host2.cybr.com,root,Password2,UnixSSH,Linux Root,Operating System-UnixSSH-rhel7.cybr.com-logon
-host3.cybr.com,root,Password3,UnixSSH,Linux Root,Operating System-UnixSSH-rhel7.cybr.com-logon
+host1.cybr.com,root,Password1,UnixSSH,AcmeCo,Operating System-UnixSSH-rhel7.cybr.com-logon
+host2.cybr.com,root,Password2,UnixSSH,AcmeCo,Operating System-UnixSSH-rhel7.cybr.com-logon
+host3.cybr.com,root,Password3,UnixSSH,AcmeCo,Operating System-UnixSSH-rhel7.cybr.com-logon
