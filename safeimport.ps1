@@ -14,17 +14,17 @@ Import-Module psPAS
 ###DEFINE VARIABLES###
 
 #Import CSV File
-$CSVPath = "C:\Users\john\Downloads\psPAS-Examples-master\psPAS-Examples-master\safeimport.csv"
+$CSVPath = "C:\safeimport.csv"
 $CSVFile = import-csv -Path $CSVPath
 
 #define a Cyberark User with access to add accounts to the target safe, Administrator in this case
 $apiCred = Get-Credential Administrator
 
 #PVWA Address without /PasswordVault
-$PVWA_Address = "https://comp01.cybr.com"
+$PVWA_Address = "https://<pvwa_address>"
 
 #LDAP Integration Domain
-$searchDomain = 'cybr.com'
+$searchDomain = '<domain where groups are>'
 
 
 #####BEGIN PROVISIONING#####
