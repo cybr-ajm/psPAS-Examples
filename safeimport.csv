@@ -1,0 +1,4 @@
+SafeName,Description,RetentionDays,CPM,SafeUsersGroup,SafeManagersGroup
+AccountingDatabase,"Safe for DBA's",1,PasswordManager,AccountingUsers,AccountingManagers
+DomainAdmins,"Safe for Domain Admins",1,PasswordManager,DAUsers,DAManagers
+CloudAdmins,"Safe for Cloud Consoles",1,PasswordManager,CloudUsers,CloudManagers
