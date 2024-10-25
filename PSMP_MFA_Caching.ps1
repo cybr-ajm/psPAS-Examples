@@ -5,7 +5,7 @@ $connString = $args[0]
 
 #Instantiate variables
 $PVWA = 'https://comp01.cybr.com'
-$IdPURL = 'https://aac4146.my.idaptive.app/applogin/appKey/b21ed38b-4219-4a48-be98-756d84779248/customerId/AAC4146'
+$IdPURL = '<YOUR IDP URL>'
 $myKeyPath = 'C:\users\john\.ssh\myKey.pem'
 $sshClient = "ssh"
 
