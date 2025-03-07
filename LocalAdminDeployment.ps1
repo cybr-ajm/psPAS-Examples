@@ -1,24 +1,24 @@
 Param(
     [Parameter()]
-    [string]$pvwaURI = 'https://comp01.cybr.com',
+    [string]$pvwaURI = 'YOUR PVWA ADDRESS HERE',
 
     [Parameter()]
-    [string]$idpURL = "https://aac4146.my.idaptive.app/applogin/appKey/b21ed38b-4219-4a48-be98-756d84779248/customerId/AAC4146",
+    [string]$idpURL = "YOUR IDP SSO URL HERE",
     
     [Parameter(ValueFromPipeline=$true)]
     [string]$targetHost,
 
     [Parameter(ValueFromPipeline=$true)]
-    [string]$targetUser = "x_admin@cybr.com",
+    [string]$targetUser = "PRIV ACCOUNT TO RETRIEVE FROM VAULT",
 
     [Parameter(ValueFromPipeline=$true)]
-    [string]$targetSafe = 'WindowsDomainAdmins',
+    [string]$targetSafe = 'TARGETSAFENAME',
 
     [Parameter()]
-    [string]$apiUser = 'gcostanza@say-vandelay.com',
+    [string]$apiUser = 'USERNAME TO QUERY API',
 
     [Parameter()]
-    [string]$OU = 'DC=CYBR,DC=COM',
+    [string]$OU = 'AD OU TO SEARCH',
 
     [Parameter()]
     [string]$localServiceAccountUserName = 'svc_ansible',
